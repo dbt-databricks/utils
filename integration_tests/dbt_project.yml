@@ -1,0 +1,20 @@
+config-version: 2
+
+name: 'integration_tests'
+version: '1.0'
+profile: 'integration_tests'
+
+
+dispatch:
+  - macro_namespace: 'utils'
+    search_order: ['integration_tests', 'utils']
+
+seeds:
+  integration_tests:
+    utils:
+      data_binary_to_address:
+      data_displayed_amount:
+      data_hex:
+      data_substring:
+
+
